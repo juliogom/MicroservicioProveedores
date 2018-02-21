@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "driver",
+            "otherEntityName": "driver",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "car"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nombre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modelo",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "precio",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180213160051",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "car",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "CAR",
+    "searchEngine": false
+}

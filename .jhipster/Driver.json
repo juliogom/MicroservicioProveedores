@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "car",
+            "otherEntityName": "car",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "driver"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nombre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "apellido",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180220205050",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "driver",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "CAR",
+    "searchEngine": false
+}
